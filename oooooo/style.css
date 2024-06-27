@@ -1,0 +1,149 @@
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.firsrpa {
+    background-color: rgb(220, 53, 69);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 39px;
+    font-size: 12px;
+}
+
+.bhpnavlogo {
+    min-width: 50%;
+    max-width: 50%;
+    min-height: 50%;
+    max-height: 50%;
+}
+
+
+.koko {
+    height: 100%;
+    width: 100%;
+}
+
+
+.sbc {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration:underline ;
+
+
+    /* overflow: hidden;
+    border-right: 0.15em;
+    white-space: nowrap;
+    margin: 0 auto;
+    /* letter-spacing: 0.15em; */
+    /* animation: typing 3s steps(35, end) infinite, 
+    blink-caret 0.75s step-end infinite ;
+    margin-bottom: 40px; */
+    
+}
+
+
+/* @keyframes typing {
+    from { width: 0; }
+    to {
+        width: 37%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: rgb(0, 0, 0);
+    }
+} */
+
+#allProducts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    min-height: 2%;
+    padding-right: 10%;
+}
+
+.font {
+    font-size: 500%;
+}
+
+#maincntdiv {
+    min-height: 50vh;
+}
+
+img {
+    height: 5%;
+}
+
+.fixed-size-img {
+    /* width: 200px; Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+.category{
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 3px 9px ;
+    background-color: #dddddd;
+    border-radius: 20px;
+    display:inline-block;
+    color: rgb(20, 144, 138);
+}
+
+.categorydiv {
+    text-align: center; /* Center align the buttons */
+  }
+  
+  .catheading {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px; /* Adjust margin as needed */
+    background-color: #dddddd;
+    border-radius: 20px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    display: inline-block;
+    overflow: hidden; /* Ensures text stays within button boundaries */
+    white-space: nowrap; /* Prevents text from wrapping */
+    transition: all 0.3s ease; /* Smooth transition for animation */
+    box-shadow: 0 4px 8px rgb(20, 144, 138); /* Optional: Add shadow for depth */
+  }
+  
+  .catheading:hover {
+    transform: scale(1.1); /* Example of hover animation */
+  }
+  
+
+
+
+
+
+  .pricediv {
+    text-align: center; /* Center align the buttons */
+  }
+  
+  .priceheading {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px; /* Adjust margin as needed */
+    background-color: #dddddd;
+    border-radius: 20px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    display: inline-block;
+    overflow: hidden; /* Ensures text stays within button boundaries */
+    white-space: nowrap; /* Prevents text from wrapping */
+    transition: all 0.3s ease; /* Smooth transition for animation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+  }
+  
+  .priceheading:hover {
+    transform: scale(1.1); /* Example of hover animation */
+  }
